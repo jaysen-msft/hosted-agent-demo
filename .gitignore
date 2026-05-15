@@ -1,0 +1,20 @@
+
+# Environment / secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local vector stores / generated data
+storage/
+*.faiss
+*.pkl
